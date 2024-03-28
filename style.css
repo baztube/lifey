@@ -1,0 +1,31 @@
+body{
+    --dot-bg: #151515;
+    --dot-color: #242424;
+    --dot-size: 2px;
+    --dot-space: 22px;
+    background: linear-gradient(
+          90deg,
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      linear-gradient(
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+      margin: 0px;
+      padding: 0px;
+      color: #fff;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(25, 136, 255);
+    padding-block: 0.5rem;
+    font-size: 3rem;
+    font-family: "Lobster", sans-serif;
+}
